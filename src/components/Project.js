@@ -1,11 +1,24 @@
+import Header from "./Header";
+import Footer from "./Footer";
 import Cocktail from "../images/cocktail-wizard.jpeg";
 import Weather from "../images/weather-dashboard.png";
+import Quiz from "../images/coding-quiz.png";
+import Future from "../images/future-finder.png";
+import Github from "../images/github-mark.png";
 import "./Project.css";
 function Project() {
   return (
     <div>
+      <Header />
       <h1>Project</h1>
       <div className="all-projects">
+        <div class="single-project">
+          <h3>Future Finder</h3>
+          <a href="https://future-finder.herokuapp.com/">
+            <img src={Future} alt="Future Finder" />
+          </a>
+          <p>Future Finder is a user friendly job board used to find, create, apply to, and bookmark various jobs. The user can register as a candidate or employer in order to view, apply, create, or bookmark a job. </p>
+        </div>
         <div className="single-project">
           <h3>Cocktail Wizard</h3>
           <a href="https://high-fivez.github.io/project1/">
@@ -20,7 +33,15 @@ function Project() {
           </a>
           <p>This website allows the user to input any city and what returns is the current forecast for that day, as well as a five day forecast.</p>
         </div>
+        <div class="single-project">
+          <h3>Coding Quiz</h3>
+          <a href="https://mireezeidan.github.io/codingquiz/">
+            <img src={Quiz} alt="Coding Quiz" />
+          </a>
+          <p>This website is a quiz game that allows the user to take a short quiz. The score is determined by the time remaining, for each incorrect answer 10 seconds are removed. At the end the user will be asked to enter their intials to save their score.</p>
+        </div>
       </div>
+      <Footer />
     </div>
   );
 }
