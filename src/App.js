@@ -6,16 +6,21 @@ import Contact from "./components/Contact";
 import Project from "./components/Project";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
+const style = {
+  background: "black",
+  color: "lawngreen",
+};
+
 function App() {
   return (
     <Router>
-      <div>
+      <div style={style}>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/projects" element={<Project />} />
+          <Route path="/project" element={<Project />} />
         </Routes>
         <Footer />
       </div>

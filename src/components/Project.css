@@ -1,0 +1,16 @@
+.all-projects {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.single-project {
+    grid-column: span 1 / span 1;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+img {
+    width: 75%;
+    height: 50%;
+}
+h1 {
+    text-align: center;
+}
