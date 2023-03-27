@@ -11,8 +11,15 @@
     margin-top: 1rem;
     padding: 1rem;
 }
-img {
+.icon-div{
+    display: flex;
+    justify-content: center;
+}
+.project-img {
     height: 200px;
+}
+.icon-img {
+    height: 75px;
 }
 h1 {
     text-align: center;

@@ -12,33 +12,53 @@ function Project() {
       <Header />
       <h1>Project</h1>
       <div className="all-projects">
-        <div class="single-project">
+        <div className="single-project">
           <h3>Future Finder</h3>
           <a href="https://future-finder.herokuapp.com/">
-            <img src={Future} alt="Future Finder" />
+            <img className="project-img" src={Future} alt="Future Finder" />
           </a>
           <p>Future Finder is a user friendly job board used to find, create, apply to, and bookmark various jobs. The user can register as a candidate or employer in order to view, apply, create, or bookmark a job. </p>
+          <div className="icon-div">
+            <a href="https://github.com/4-non-non-dorks/future-finder">
+              <img className="icon-img" src={Github} alt="Github Link" />
+            </a>
+          </div>
         </div>
         <div className="single-project">
           <h3>Cocktail Wizard</h3>
           <a href="https://high-fivez.github.io/project1/">
-            <img src={Cocktail} alt="cocktail wizard" />
+            <img className="project-img" src={Cocktail} alt="cocktail wizard" />
           </a>
           <p>This website will allow you to input two ingredients and receive back a cocktail containing those ingredients. It will also display the recipe as well as the ingredients and their measurements.</p>
+          <div className="icon-div">
+            <a href="https://github.com/high-fivez/project1">
+              <img className="icon-img" src={Github} alt="Github Link" />
+            </a>
+          </div>
         </div>
-        <div class="single-project">
+        <div className="single-project">
           <h3>Weather Dasboard</h3>
           <a href="https://mireezeidan.github.io/weatherdashboard/">
-            <img src={Weather} alt="Weather Dashboard" />
+            <img className="project-img" src={Weather} alt="Weather Dashboard" />
           </a>
           <p>This website allows the user to input any city and what returns is the current forecast for that day, as well as a five day forecast.</p>
+          <div className="icon-div">
+            <a href="https://github.com/mireezeidan/weatherdashboard">
+              <img className="icon-img" src={Github} alt="Github Link" />
+            </a>
+          </div>
         </div>
-        <div class="single-project">
+        <div className="single-project">
           <h3>Coding Quiz</h3>
           <a href="https://mireezeidan.github.io/codingquiz/">
-            <img src={Quiz} alt="Coding Quiz" />
+            <img className="project-img" src={Quiz} alt="Coding Quiz" />
           </a>
           <p>This website is a quiz game that allows the user to take a short quiz. The score is determined by the time remaining, for each incorrect answer 10 seconds are removed. At the end the user will be asked to enter their intials to save their score.</p>
+          <div className="icon-div">
+            <a href="https://github.com/mireezeidan/codingquiz">
+              <img className="icon-img" src={Github} alt="Github Link" />
+            </a>
+          </div>
         </div>
       </div>
       <Footer />
