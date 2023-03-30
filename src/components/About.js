@@ -6,8 +6,8 @@ function About() {
   return (
     <div>
       <Header />
-      <h2>About</h2>
-      <div className="about-container">
+      <h1>About</h1>
+      <div className="about-container grid-cols-1 md:grid-cols-2">
         <div className="single-div">
           <img className="about-img" src={Me} alt="Avatar" />
         </div>

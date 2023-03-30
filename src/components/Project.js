@@ -11,7 +11,7 @@ function Project() {
     <div>
       <Header />
       <h1>Project</h1>
-      <div className="all-projects">
+      <div className="all-projects grid-cols-1 md:grid-cols-3">
         <div className="single-project">
           <h3>Future Finder</h3>
           <a href="https://future-finder.herokuapp.com/">

@@ -11,7 +11,7 @@ function Contact() {
     <div className="all">
       <Header />
       <h1>Contact</h1>
-      <div className="contact-div">
+      <div className="contact-div grid-cols-1 md:grid-cols-3">
         <div className="single-contact">
           <Link to="https://github.com/mireezeidan">
             <img className="contact-img" src={Github} alt="Github Logo" />
