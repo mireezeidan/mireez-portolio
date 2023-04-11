@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86b00b3b.css",
+    "main.js": "/static/js/main.d54215ec.js",
+    "static/media/future-finder.png": "/static/media/future-finder.0cc25514d765571859b6.png",
+    "static/media/weather-dashboard.png": "/static/media/weather-dashboard.f63e423986fda156e3c2.png",
+    "static/media/coding-quiz.png": "/static/media/coding-quiz.f6781a302de09385bfe3.png",
+    "static/media/cocktail-wizard.jpeg": "/static/media/cocktail-wizard.c2fd23fb2df530771f51.jpeg",
+    "static/media/me.jpeg": "/static/media/me.a3d09883b456f7dd1e6a.jpeg",
+    "static/media/github-logo.png": "/static/media/github-logo.6149aa5ccbc036755594.png",
+    "static/media/linkedin-logo.png": "/static/media/linkedin-logo.a95afc06831647f5fca2.png",
+    "static/media/resume.png": "/static/media/resume.129c6fbe782fd2373a9f.png",
+    "index.html": "/index.html",
+    "main.86b00b3b.css.map": "/static/css/main.86b00b3b.css.map",
+    "main.d54215ec.js.map": "/static/js/main.d54215ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86b00b3b.css",
+    "static/js/main.d54215ec.js"
+  ]
+}
